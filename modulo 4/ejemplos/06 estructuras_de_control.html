@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
 </head>
 
 <body>
-	<script>
-    
+    <script>
+
         var dia,mes,anio;
-        
+
         dia=prompt('Ingrese día en números:','');
         mes=prompt('Ingrese mes en números:','');
         anio=prompt('Ingrese año en números:','');
-        
+
         dia=parseInt(dia); // parseInt > para que el operador + sume los contenidos de los valores numéricos ingresados por teclado
         mes=parseInt(mes);
         año=parseInt(anio);
-        
+
         if (mes==1 || mes==2 || mes==3) { // || OR
             document.write('corresponde al primer trimestre del año.');
         }
@@ -34,8 +35,9 @@
                 }
             }
         }
-        
+
     </script>
 
 </body>
+
 </html>
